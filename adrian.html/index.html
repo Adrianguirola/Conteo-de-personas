@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Conteo de estacion del tren</title>
+</head>
+<body>
+    <h1>Gente que entró:</h1>
+    <h2 id="count-el">0</h2>
+    <button id="increment-btn" onclick="increment()">INCREMENTO</button>
+    <button id="decrement-btn" onclick="decrement()">DECREMENTO</button>
+    <button id="save-btn" onclick="save()">GUARDAR</button>
+    <p id="save-el" >Entradas anteriores: </p>
+    <h1>Compra de Billetes de Tren:</h1>
+    <div class="controls">
+        <select id="salida">
+            <option value="0">Seleccione una ciudad</option>
+            <option value="Madrid">Madrid</option>
+            <option value="Zaragoza">Zaragoza</option>
+            <option value="Barcelona">Barcelona</option>
+        </select>
+        <select id="destino">
+            <option value="0">Seleccione una ciudad</option>
+            <option value="Madrid">Madrid</option>
+            <option value="Zaragoza">Zaragoza</option>
+            <option value="Barcelona">Barcelona</option>
+        </select>
+        <button id="calcular-btn" onclick="calcularPrecio()">CALCULAR PRECIO</button>
+    </div>
+    <h2>Precio total: <span id="precio_total">0</span> €</h2>
+    <button id="reiniciar-btn" onclick="reiniciarPrecio()">REINICIAR PRECIO</button>
+       
+        <script src="index.js"></script>
+</body>
+</html>
