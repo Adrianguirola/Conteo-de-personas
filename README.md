@@ -1,2 +1,2 @@
-# Conteo-de-personas
-Conteo de personas en estación de tren
+# Estacion de tren
+Conteo de personas y compra de billetes en estación de tren
